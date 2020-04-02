@@ -1,0 +1,46 @@
+for i in range(3):
+    print(i)
+
+
+single_digits = range(10)
+squares = []
+
+for item in single_digits:
+  print(item)
+  squares.append(item**2)
+  
+cubes = [item**3 for item in single_digits]
+print(cubes)
+
+#Create a function called every_three_nums that has one parameter named start.
+#The function should return a list of every third number between start and 100
+
+def every_three_nums(start):
+  return list(range(start, 101, 3))
+
+#Uncomment the line below when your function is done
+print(every_three_nums(0))
+
+# add the the lists together
+
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+# Add your function here
+
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    for number in numbers:
+      results.append(number)
+  return results
+
+print (flatten(n))
+
+#if number is divisible by two return even, if not print odd
+
+def even_or_odd(num):
+  if num % 2 ==0:
+    return "Even"
+  if num % 2 ==1:
+    return "Odd"
+print(even_or_odd(3))
+

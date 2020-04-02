@@ -1,0 +1,435 @@
+1.
+def total(numbers):
+  result = 0
+  for i in range(0,len(numbers)):
+    result += numbers[i]
+  return result
+print(total(n))
+
+2.
+def join_strings(words):
+  result = ""
+  for i in words:
+    result += i
+  return result
+print (join_strings(n))
+
+3.
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    for number in numbers:
+      results.append(number)
+  return results
+print (flatten(n))
+
+4.
+def even_or_odd(num):
+  if num % 2 ==0:
+    return "Even"
+  if num % 2 ==1:
+    return "Odd"
+print(even_or_odd(3))
+
+5.
+def opposite(num):
+    if num > 0:
+      return num*-1
+    elif num < 0:
+     return  num * -1
+print(opposite(6))
+
+6.
+def square_sum(numbers):
+    return sum( x**2 for x in numbers)
+print(square_sum(numbers))
+
+7.
+def number_sum(numbers):
+    return sum (x for x in numbers)
+print(number_sum(numbers))
+
+8.
+def basic_operator(operator, value1, value2):
+    if operator == "+":
+        return value1 + value2
+    elif operator == "-":
+        return value1 - value2
+    elif operator == "*":
+        return value1* value2
+    elif operator == "/":
+        return value1 / value2
+print(basic_operator("*", 5, 6))
+
+9.
+def reverse_words(str):
+    return ' '.join(s[::-1] for s in str.split(' '))
+print(reverse_words("The quick brown fox jumps over the lazy dog."))
+
+10.
+def upperCase(s):
+    return s.upper()
+print(upperCase("apple"))
+
+11.
+def greet():
+    greet = "hello world"
+    return greet
+print(greet())
+
+12.
+def remove_exclamation_mark(s):
+    
+    return s.replace("!", "")
+print(remove_exclamation_mark("hello! world!!!"))
+
+13.
+def getCount(inputStr):
+    numvowels=0
+    for i in inputStr:
+       if(i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'):
+        numvowels = numvowels + 1
+    return numvowels
+print(getCount("abracadabra"))
+
+14.
+def how_much_i_love_you(nb_petals):
+    n = nb_petals % 6
+    if n == 1:
+        return "I love you"
+    if n == 2:
+        return "a little"
+    if n == 3:
+        return "a lot"
+    if n == 4:
+        return "passionately"
+    if n == 5:
+        return "madly"
+    if n == 0:
+        return "not at all"
+print(how_much_i_love_you(6))
+
+15.
+def getVolumeOfCubiod(length, width, height):
+    volume = length * width * height
+    return volume
+print(getVolumeOfCubiod(5,5,5))
+
+16.
+def other_angle(a, b):
+    angle = 180 - (a + b)
+    return angle
+print(other_angle(30, 70))
+
+17.
+def switch_it_up(num):
+    if num==0:
+        return "zero"
+    elif num== 1:
+        return "one"
+    elif num==2:
+        return "two"
+    elif num == 3:
+        return "three"
+    elif num == 4:
+        return "four"
+    elif num == 5:
+        return "five"
+    elif num == 6:
+        return "six"
+    elif num== 7:
+        return "seven"
+    elif num== 8:
+        return "eight"
+    elif num==9:
+        return "nine"
+print(switch_it_up(9))
+
+18. 
+bmi = weight / height**2
+    if bmi <= 18.5:
+       return "Underweight"
+    elif bmi <= 25:
+       return "normal"
+    elif bmi <= 30:
+        return "Overweight"
+    elif bmi > 30:
+       return "Obese"
+    return bmi
+print(bmi(90, 1.8))
+
+19.
+def reverseseq(n):
+    return list(range(n,0,- 1))
+print(reverseseq(5))
+
+20.
+def lovefunc( flower1, flower2 ):
+    if (flower1 + flower2) % 2 == 1: 
+        return True
+    else:
+        return False
+print(lovefunc(2, 20))
+
+21.
+def FirstReverse(str): 
+
+  # the easiest way to reverse a string in python is actually the following way:
+  # in python you can treat the string as an array by adding [] after it and 
+  # the colons inside represent str[start:stop:step] where if step is a negative number
+  # it'll loop through the string backwards 
+  return str[::-1]
+    
+print(FirstReverse("Joe"))  
+
+22.
+def print_some_characters(word):
+    for i in range(len(word)):
+        if (i%2) -1==0:
+            print(word[i])
+print(print_some_characters("watermelon"))
+
+23.
+def print_some_characters(word):
+    for i  in range(len(word)):
+        if i%2 == 0:
+            print(word[i])
+print(print_some_characters("watermelon"))
+
+24.
+def simple_adding(num):
+    return sum(range(1, num+1))
+print(simple_adding(3))
+
+25.
+def word_capitalize(str):
+    return str.title()
+print(word_capitalize("you magnificent bastard"))
+
+26.
+def every_other_letter(word):
+  every_other = ""
+  for i in range(0, len(word), 2):
+    every_other += word[i]
+  return every_other
+print(every_other_letter("casabalanca"))
+
+27.
+def reverse_string(word):
+  reverse = ""
+  for i in range(len(word)-1, -1,  -1):
+    reverse += word[i]
+  return reverse
+print(reverse_string("casablanca"))
+
+28.
+def count_char_x(word, x):
+  occurrences = 0
+  for letter in word:
+    if letter == x:
+      occurrences += 1
+  return occurrences
+print(count_char_x("mississippi", "s"))
+
+29.
+def add_exclamation(word):
+  while len(word) < 20:
+    word += "!"
+  return word
+print(add_exclamation("Joe"))
+
+30.
+def multiply(a,b):
+    multiplied = a*b
+    return multiplied
+print(multiply(6,6))
+
+31.
+def remove_char(s):
+    
+     return s[0] + s[-1]
+print(remove_char('robert'))
+
+32.
+numbers = [0, 3, 4 ,5]
+def square_sum(numbers):
+   return sum(x ** 2 for x in numbers)
+
+print(square_sum(numbers))
+
+33.
+def no_space(x):
+    return x.replace(' ' ,'')
+print(no_space(x))
+
+34.
+for i in range(3):
+    print("You are welcome")
+
+35.
+for i in range(5):
+    print(i)
+
+36.
+dog = animals[3:6]
+cat = animals[:3]
+frog = animals[6:]
+print(dog)
+print(cat)
+print(frog
+
+37.
+print(animals.index("bat"))
+#add dog after bat
+animals.insert(1, 'dog')
+print(animals)
+# find where cat is
+animals.index('cat')
+print(animals.index('cat'))
+# find where ant is and insert mouse at that spot
+ant_index = animals.index('ant')
+animals.insert(ant_index, "mouse")
+print(animals)
+
+1
+['ant', 'dog', 'bat', 'cat']
+3
+['mouse', 'ant', 'dog', 'bat', 'cat']
+
+38.
+my_list = [1, 3, 5, 7, 9]
+for number in my_list:
+    print( number *2)
+
+39.
+animals.sort()
+for animal in animals:
+    print(animal)
+
+40.
+def count_small(numbers):
+  total = 0
+  for n in numbers:
+    if n < 10:
+      total = total + 1
+  return total
+
+lotto = [4, 8, 15, 16, 23, 42]
+small = count_small(lotto)
+print(small)
+
+41.
+def is_even_num(l):
+    enum = []
+    for n in l:
+        if n % 2 == 0:
+            enum.append(n)
+    return enum
+print(is_even_num([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+42.
+def every_three_nums(start):
+  return list(range(start, 101, 3))
+
+print(every_three_nums(91))
+
+43.
+def larger_list(lst1, lst2):
+  if len(lst1) >= len(lst2):
+    return lst1[-1]
+  else:
+    return lst2[-1]
+
+print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
+
+44.
+def combine_sort(lst1, lst2):
+  unsorted = lst1 + lst2
+  sortedList = sorted(unsorted)
+  return sortedList
+
+#Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
+
+45.
+def divisible_by_ten(nums):
+  count = 0
+  for number in nums:
+    if (number % 10 == 0):
+      count += 1
+  return count
+
+#Uncomment the line below when your function is done
+print(divisible_by_ten([20, 25, 30, 35, 40]))
+
+46.
+def add_greetings(names):
+  new_list = []
+  for name in names:
+    new_list.append("Hello, " + name)
+  return new_list
+
+#Uncomment the line below when your function is done
+print(add_greetings(["Owen", "Max", "Sophie"]))
+
+47.
+def larger_sum(lst1, lst2):
+  sum1 = 0
+  sum2 = 0
+  for number in lst1:
+    sum1 += number
+  for number in lst2:
+    sum2 += number
+  if sum1 >= sum2:
+    return lst1
+  else: 
+    return lst2
+
+#Uncomment the line below when your function is done
+print(larger_sum([1, 9, 5], [2, 3, 7]))
+
+48.
+letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+# Write your unique_english_letters function here:
+def unique_english_letters(word):
+  uniques = 0
+  for letter in letters:
+    if letter in word:
+      uniques += 1
+  return uniques
+
+# Uncomment these function calls to test your tip function:
+print(unique_english_letters("mississippi"))
+# should print 4
+print(unique_english_letters("Apple"))
+# should print 4
+
+49.
+def same_name(your_name, my_name):
+  if your_name == my_name:
+    return True
+  else:
+    return False
+
+# Uncomment these function calls to test your same_name function:
+print(same_name("Colby", "Colby"))
+# should print True
+print(same_name("Tina", "Amber"))
+# should print False
+
+50.
+def max_num(num1, num2, num3):
+  if num1 > num2 and num1 > num3:
+    return num1
+  elif num2 > num1 and num2 > num3:
+    return num2
+  elif num3 > num1 and num3 > num2:
+    return num3
+  else:
+    return "It's a tie!"
+# Uncomment these function calls to test your max_num function:
+print(max_num(-10, 0, 10))
+# should print 10
+print(max_num(-10, 5, -30))
+# should print 5
+print(max_num(-5, -10, -10))

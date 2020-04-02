@@ -1,0 +1,246 @@
+1.
+#Create a function that returns the sum of a list of numbers.
+
+#On line 3, define a function called total that accepts one argument called numbers. 
+#It will be a list.
+
+n = [3, 5, 7]
+
+2. Combine the two words together.
+   n = ["Michael", "Lieberman"]
+# Add your function here
+
+3.
+ Commbine the the two lists together
+
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+
+4.
+If a number is divisible by two return even, if not print odd
+
+5. given a number, find its opposite
+   1: -1
+  -1:1  
+
+6.
+Square the numbers and then add them together
+numbers = [1,2,3]
+
+7.
+Create a function that returns the sum of a list of numbers.
+
+On line 3, define a function called total that accepts one argument called numbers. 
+It will be a list.
+numbers =[1,2,3,4,5,6]
+
+8.
+Your task is to create a function that does four basic mathematical operations.
+The function should take three arguments -
+operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen 
+operation.
+
+9.
+Complete the function that accepts a string parameter,
+and reverses each word in the string. All spaces in the string 
+should be retained.
+
+str = "The quick brown fox jumps over the lazy dog."
+
+10.
+Write a function to make upperCase--- apple
+
+11.
+write a function that says the greeting "hello world"
+
+12.
+Write function RemoveExclamationMarks which removes all 
+exclamation marks from a given string
+"Hello World!!!"
+
+13.
+Return the number (count) of vowels in the given string
+inputStr= "abracadabra"
+
+14.
+Who remembers back to their time in the schoolyard, when girls 
+would take a flower and tear its petals, saying each of the 
+following phrases each time a petal was torn:
+
+I love you
+a little
+a lot
+passionately
+madly
+not at all
+When the last petal was torn there were cries of excitement, dreams, 
+surging thoughts and emotions.
+
+Your goal in this kata is to determine which phrase the girls would say for a 
+flower of a given number
+
+15.
+Bob needs a fast way to calculate the volume of a cuboid with three values:
+length, width and the height of the cuboid.
+Write a function to help Bob with this calculation.
+
+16.
+You are given two angles (in degrees) of a triangle.
+Write a function to return the 3rd.
+Note: only positive integers will be tested.
+
+17.
+When provided with a number between 0-9, return it in words.
+Input :: 1
+Output :: "One"
+
+18.
+ Write function bmi that calculates body mass index (bmi = weight / height ^ 2).
+if bmi <= 18.5 return "Underweight"
+if bmi <= 25.0 return "Normal"
+if bmi <= 30.0 return "Overweight"
+if bmi > 30 return "Obese
+
+19.
+Get the number n (n>0) to return the reversed sequence from n to 1.
+
+Example : n=5 >> [5,4,3,2,1]
+
+20.
+Timmy & Sarah think they are in love, but around where they live, 
+they will only know once they pick a flower each. If one of the flowers
+has an even number of petals and the other has an odd number of petals 
+it means they are in love.
+
+Write a function that will take the number of petals of each flower 
+and return true if they are in love and false if they aren't.
+
+21.
+Take a string and reverse its 
+
+22.
+Print every second letter of 'watermelon'
+
+23.  
+Print out every odd letter letter of 'watermelon'
+
+24. Pick a number, say 3, and add all the numbers upto it together
+    1+2+3= 6
+
+25.
+Capitalize the first letter of each word in a sentence
+ 'you magnificent bastard'
+
+26.
+print out every other letter in a word 'casablanca'
+
+27.
+Take a word and reverse the order 'casablanca'
+
+28.
+How many times a letter appears in a word 's' in mississippi
+
+29.
+if a word (Joe) has less then 20 characters add ! till it reaches 20 characters
+
+30.
+Write a function to multiply two numbers together
+
+31.
+Return the first and last letter from the word 'robert'
+
+32
+%ake all the numbers, square them and then add them together
+
+numbers = [0, 3, 4 ,5]
+
+33.
+Take out all the white spaces from the string
+x= "8 j 8   mBliB8g  imjB8B8  jl  B"
+
+34.
+Print out "You are welcome" 3 times
+
+35.
+Print out every number between 0 and 5
+
+36.
+Animals = "catfrogdog"
+print out cat, frog, dog separately from the string
+
+37.
+animals=['ant', 'bat', 'cat']
+-Print out the index of 'bat'
+-add 'dog' to the list after 'ant'
+-find where 'cat' is
+- find where 'ant' is and replace it with 'mouse'
+
+38.
+multiply every number by 2 in the list
+my_list = [1, 3, 5, 7, 9]
+
+39.
+sort() in alphabetical order
+animals = ["cat", "dog", "bat", "mouse"]
+
+40.
+Find how many numbers are less than 10 in the list
+lotto = [4, 8, 15, 16, 23, 42]
+
+41.
+write a function that prints out the even numbers from a list
+Sample List : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+42.
+Create a function called every_three_nums that has one parameter named start.
+
+The function should return a list of every third number between start and 100 (inclusive).
+ For example, every_three_nums(91) should return the list [91, 94, 97, 100
+
+ 43.
+ Write a function named larger_list that has two parameters named lst1 and lst2.
+
+The function should return the last element of the list that contains more elements. 
+If both lists are the same size, then return the last element of lst1.
+
+44.
+Write a function named combine_sort that has two parameters named lst1 and lst2.
+
+The function should combine these two lists into one new list and sort the result. Return the new sorted list.
+
+45.
+Create a function named divisible_by_ten() that takes a list of numbers named nums as a parameter.
+
+Return the count of how many numbers in the list are divisible by 10.
+20, 25, 30, 35, 40]
+
+46.
+Create a function named add_greetings() which takes a list of strings named names as a parameter.
+
+In the function, create an empty list that will contain each greeting. Add the string "Hello, " in front of each name in names and append the greeting to the list.
+
+Return the new list containing the greetings.
+
+47.
+Create a function named larger_sum() that takes two lists of numbers as parameters named lst1 and lst2.
+
+The function should return the list whose elements sum to the greater number. If the sum of the elements of each list are equal, return lst1
+[1, 9, 5], [2, 3, 7]))
+
+48.
+Write a function called unique_english_letters that takes the string word as a parameter. The function should return the total number of unique letters in the string. Uppercase and lowercase letters should be counted as different letters.
+
+We’ve given you a list of every uppercase and lower case letter in the English alphabet. It will be helpful to include that list in your function.
+letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+49.
+Create a function named same_name() that has two parameters named your_name and my_name.
+
+If our names are identical, return True. Otherwise, return False.
+1. 'Colby' 'Colby'
+2. 'Tina' 'Amber'
+
+50.
+Create a function called max_num() that has three parameters named num1, num2, and num3.
+
+The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return "It's a tie!".
